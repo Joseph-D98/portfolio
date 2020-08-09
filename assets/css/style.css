@@ -111,11 +111,19 @@ input, select {
     text-decoration: none;
 }
 
+main {
+    padding-top: 100px;
+}
+
 /* HEADER STYLE BEGINS */
 header {
     background-color: #fff;
     width: 100%;
     height: 100px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
     
 }
 
@@ -156,14 +164,6 @@ header .header-contact {
 }
 /* HEADER STYLE ENDS */
 
-.page-title {
-    font-family: Catamaran;
-    font-size: 45px;
-    color: #111;
-    background-color: rgba(137, 137, 137, 0.5);
-    text-align: center;
-    line-height: 90px;
-}
 
 /* HERO STYLE BEGINS */
 
@@ -227,6 +227,44 @@ header .header-contact {
 
 /* BUTTON STYLE ENDS */
 
+
+/* PORTFOLIO STYLE BEGINS */
+.portfolio-links {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.portfolio-links h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.portfolio-links .wrapper div {
+    float: left;
+    width: 230px;
+    height: 230px;
+    margin: 20px 10px 0px;
+    background-color: #f3f3f3;
+}
+
+.portfolio-links .wrapper div p {
+    line-height: 230px;
+    font-family: Catamaran;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 230px;
+    text-align: center;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.rb-rectangle-button, .h-rectangle-button {
+
+}
 
 /* FOOTER STYLE STARTS */
 footer {
@@ -350,7 +388,7 @@ footer ul li a {
     }
 
     .index-button div:hover {
-        background-color: rgba(175, 175, 175, 0.3) ;
+        background-color: rgba(175, 175, 175, 0.3);
         box-sizing: border-box;
         border: 1.5px solid rgba(137, 137, 137, 0.5);
     }
@@ -365,6 +403,29 @@ footer ul li a {
     .index-button div h3 {
         line-height: 230px;
     }
-    /* BUTTON STYLE ENDS */    
+    /* BUTTON STYLE ENDS */
+    
+    .portfolio-links .wrapper div:hover {
+        background-color: rgba(175, 175, 175, 0.3);
+        box-sizing: border-box;
+        border: 1.5px solid rgba(137, 137, 137, 0.9);
+        background-size: cover;
+    }
+    
+    .p-square-button {
+        width: calc(25% - 20px) !important;
+    }
+
+    .rb-rectangle-button, .h-rectangle-button {
+        width: calc(50% - 20px) !important;
+    }
+
+    .rb-rectangle-button:hover{
+        background-image: url(../image/run-buddy.PNG);   
+    }
+
+    .h-rectangle-button:hover{
+        background-image: url(../image/horiseon.PNG);
+    }
 }
 /* DESKTOP STYLE ENDS */
