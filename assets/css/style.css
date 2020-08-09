@@ -156,6 +156,15 @@ header .header-contact {
 }
 /* HEADER STYLE ENDS */
 
+.page-title {
+    font-family: Catamaran;
+    font-size: 45px;
+    color: #111;
+    background-color: rgba(137, 137, 137, 0.5);
+    text-align: center;
+    line-height: 90px;
+}
+
 /* HERO STYLE BEGINS */
 
 .index-hero {
