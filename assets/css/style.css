@@ -261,6 +261,11 @@ footer ul li a {
 
 /* DESKTOP STYLE BEGINS */
 @media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
     /* HEADER STYLE BEGINS */
     header .header-brand {
         margin: 31px 0;
@@ -322,4 +327,27 @@ footer ul li a {
         bottom: 580px;
         right: 10px;
     }
+    /* HERO STYLE ENDS */
+
+    /* BUTTON STYLE BEGINS */
+    .index-button {
+        overflow: hidden;
+    }
+
+    .index-button div {
+        margin: 20px 10px 0;
+        height: 240px;
+        float: left;
+    }
+
+    .rectangle-button {
+        width: calc(70% - 20px) !important;
+    }
+    .square-button {
+        width: calc(30% - 20px) !important;
+    }
+
+    .index-button div h3 {
+        line-height: 230px;
+    }    
 }
