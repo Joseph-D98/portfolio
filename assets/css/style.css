@@ -265,6 +265,17 @@ header .header-contact {
 .rb-rectangle-button, .h-rectangle-button {
 
 }
+/* PORTFOLIO STYLE ENDS */
+
+/*ABOUT ME STYLE BEGINS */
+.page-title h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-transform: uppercase;
+}
 
 /* FOOTER STYLE STARTS */
 footer {
