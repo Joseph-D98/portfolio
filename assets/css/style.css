@@ -340,6 +340,12 @@ footer ul li a {
         float: left;
     }
 
+    .index-button div:hover {
+        background-color: rgba(175, 175, 175, 0.3) ;
+        box-sizing: border-box;
+        border: 1.5px solid rgba(137, 137, 137, 0.5);
+    }
+
     .rectangle-button {
         width: calc(70% - 20px) !important;
     }
@@ -349,5 +355,7 @@ footer ul li a {
 
     .index-button div h3 {
         line-height: 230px;
-    }    
+    }
+    /* BUTTON STYLE ENDS */    
 }
+/* DESKTOP STYLE ENDS */
