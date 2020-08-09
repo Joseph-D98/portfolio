@@ -268,7 +268,11 @@ header .header-contact {
 /* PORTFOLIO STYLE ENDS */
 
 /*ABOUT ME STYLE BEGINS */
-.page-title h2 {
+.about-me {
+    
+}
+
+.about-me h2 {
     font-family: Catamaran;
     font-size: 28px;
     font-weight: 600;
@@ -276,6 +280,77 @@ header .header-contact {
     color: #111;
     text-transform: uppercase;
 }
+
+.about-me img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 50%;
+    height: 400px;
+    float: left;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 40px; 
+}
+
+.about-me article {
+    display: block;
+    float: left;
+    width: 400px;
+}
+
+.about-me article h3 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-me article p {
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #111;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.contact-page h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.contact-page .wrapper div {
+    float: left;
+    width: 900px;
+    margin: 0 50px 20px;
+    height: 230px;
+    background-color: rgba(175, 175, 175, 0.3);
+    box-sizing: border-box;
+    border: 1.5px solid rgba(137, 137, 137, 0.9);   
+}
+
+.contact-box {
+    padding-top: 35px;
+}
+
+.contact-box h3 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 50px;
+    color: #111;
+    text-transform: uppercase;
+}
+
 
 /* FOOTER STYLE STARTS */
 footer {
@@ -299,7 +374,7 @@ footer ul li {
 
 footer ul li a {
     font-family: 'Catamaran';
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     line-height: 40px;
     vertical-align: middle;
@@ -432,7 +507,7 @@ footer ul li a {
     }
 
     .rb-rectangle-button:hover{
-        background-image: url(../image/run-buddy.PNG);   
+        background-image: url(../image/run-buddy.PNG);
     }
 
     .h-rectangle-button:hover{
