@@ -106,7 +106,7 @@ input, select {
 
 
 
-/* Joseph DeFelice Code Begins */
+/* --------------------- JOSEPH DEFELICE CODE BEGINS ----------------------------- */
 * {
     text-decoration: none;
 }
@@ -114,6 +114,8 @@ input, select {
 main {
     padding-top: 100px;
 }
+
+/* ---------- INDEX PAGE ------------- */
 
 /* HEADER STYLE BEGINS */
 header {
@@ -124,6 +126,7 @@ header {
     top: 0px;
     right: 0px;
     left: 0px;
+    z-index: 1000;
     
 }
 
@@ -166,7 +169,6 @@ header .header-contact {
 
 
 /* HERO STYLE BEGINS */
-
 .index-hero {
     width: 100%;
     height: calc(100vh - 100px);
@@ -224,135 +226,10 @@ header .header-contact {
     text-align: center;
     text-transform: uppercase;
 }
-
 /* BUTTON STYLE ENDS */
 
 
-/* PORTFOLIO STYLE BEGINS */
-.portfolio-links {
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-
-.portfolio-links h2 {
-    font-family: Catamaran;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 100px;
-    color: #111;
-    text-transform: uppercase;
-}
-
-.portfolio-links .wrapper div {
-    float: left;
-    width: 230px;
-    height: 230px;
-    margin: 20px 10px 0px;
-    background-color: #f3f3f3;
-}
-
-.portfolio-links .wrapper div p {
-    line-height: 230px;
-    font-family: Catamaran;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 230px;
-    text-align: center;
-    color: #111;
-    text-transform: uppercase;
-}
-
-.rb-rectangle-button, .h-rectangle-button {
-
-}
-/* PORTFOLIO STYLE ENDS */
-
-/*ABOUT ME STYLE BEGINS */
-.about-me {
-    
-}
-
-.about-me h2 {
-    font-family: Catamaran;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 100px;
-    color: #111;
-    text-transform: uppercase;
-}
-
-.about-me img {
-    display: block;
-    margin: 0 auto;
-    object-fit: cover;
-    width: 50%;
-    height: 400px;
-    float: left;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 40px; 
-}
-
-.about-me article {
-    display: block;
-    float: left;
-    width: 400px;
-}
-
-.about-me article h3 {
-    font-family: Catamaran;
-    font-size: 28px;
-    font-weight: 600;
-    color: #111;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.about-me article p {
-    font-family: Catamaran;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    color: #111;
-    text-transform: uppercase;
-    padding: 20px;
-}
-
-.contact-page h2 {
-    font-family: Catamaran;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 100px;
-    color: #111;
-    text-transform: uppercase;
-}
-
-.contact-page .wrapper div {
-    float: left;
-    width: 900px;
-    margin: 0 50px 20px;
-    height: 230px;
-    background-color: rgba(175, 175, 175, 0.3);
-    box-sizing: border-box;
-    border: 1.5px solid rgba(137, 137, 137, 0.9);   
-}
-
-.contact-box {
-    padding-top: 35px;
-}
-
-.contact-box h3 {
-    font-family: Catamaran;
-    font-size: 28px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 50px;
-    color: #111;
-    text-transform: uppercase;
-}
-
-
-/* FOOTER STYLE STARTS */
+/* FOOTER STYLE BEGINS */
 footer {
     width: calc(100% - 80px);
     padding: 40px 40px;
@@ -392,12 +269,145 @@ footer ul li a {
 /* FOOTER STYLE ENDS */
 
 
+
+/* ---------- PORTFOLIO PAGE ------------- */
+
+/* PORTFOLIO STYLE BEGINS */
+.portfolio-links {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.portfolio-links h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.portfolio-links .wrapper div {
+    float: left;
+    width: 230px;
+    height: 230px;
+    margin: 20px 10px 0px;
+    background-color: #f3f3f3;
+}
+
+.portfolio-links .wrapper div p {
+    line-height: 230px;
+    font-family: Catamaran;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 230px;
+    text-align: center;
+    color: #111;
+    text-transform: uppercase;
+}
+/* PORTFOLIO STYLE ENDS */
+
+
+/* ---------- ABOUT ME PAGE ------------- */
+
+/*ABOUT ME STYLE BEGINS */
+.about-me h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-me img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 50%;
+    height: 300px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 40px; 
+}
+
+.about-me article {
+    display: block;
+    width: 352px;
+    text-align: center;
+}
+
+.about-me article h3 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-me article p {
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #111;
+    text-transform: uppercase;
+    padding: 20px;
+}
+/* ABOUT ME STYLE ENDS */
+
+
+/* ---------- CONTACT PAGE ------------- */
+
+/* CONTACT STYLE BEGINS */
+.contact-page h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.contact-page .wrapper div {
+    float: left;
+    width: 325px;
+    margin: 0 25px 20px;
+    height: 230px;
+    background-color: rgba(175, 175, 175, 0.3);
+    box-sizing: border-box;
+    border: 1.5px solid rgba(137, 137, 137, 0.9);   
+}
+
+.contact-box {
+    padding-top: 35px;
+}
+
+.contact-box h3 {
+    font-family: Catamaran;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 50px;
+    color: #111;
+    text-transform: uppercase;
+}
+/* CONTACT STYLE ENDS */
+
+
+/* ---------- DESKTOP STYLE ------------- */
+
 /* DESKTOP STYLE BEGINS */
 @media only screen and (min-width: 1000px) {
     .wrapper {
         width: 1000px;
         margin: 0 auto;
     }
+
+
+    /* ---------- INDEX DESKTOP PAGE ------------- */
 
     /* HEADER STYLE BEGINS */
     header .header-brand {
@@ -491,6 +501,9 @@ footer ul li a {
     }
     /* BUTTON STYLE ENDS */
     
+
+    /* ---------- PORTFOLIO DESKTOP PAGE ------------- */
+
     .portfolio-links .wrapper div:hover {
         background-color: rgba(175, 175, 175, 0.3);
         box-sizing: border-box;
@@ -513,5 +526,35 @@ footer ul li a {
     .h-rectangle-button:hover{
         background-image: url(../image/horiseon.PNG);
     }
+
+
+    /* ---------- ABOUT ME DESKTOP PAGE ------------- */
+
+    .about-me h2 {
+        text-align: start;
+    }
+
+    .about-me img {
+        height: 400px;
+        float: left;
+    }
+
+    .about-me article {
+        float: left;
+        width: 400px;
+    }
+
+
+    /* ---------- CONTACT DESKTOP PAGE ------------- */
+    
+    .contact-page .wrapper div {
+        width: 900px;
+        margin: 0 50px 20px; 
+    }
+    
+    .contact-box h3 {
+        font-size: 28px;
+    }
+
 }
 /* DESKTOP STYLE ENDS */
