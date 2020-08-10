@@ -273,6 +273,7 @@ footer ul li a {
 /* ---------- PORTFOLIO PAGE ------------- */
 
 /* PORTFOLIO STYLE BEGINS */
+
 .portfolio-links {
     overflow: hidden;
     margin-bottom: 20px;
@@ -285,26 +286,38 @@ footer ul li a {
     line-height: 100px;
     color: #111;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .portfolio-links .wrapper div {
-    float: left;
-    width: 230px;
-    height: 230px;
-    margin: 20px 10px 0px;
+    margin: 16px;
+    width: calc(100% - 32px);
+    height: 100px;
     background-color: #f3f3f3;
 }
 
 .portfolio-links .wrapper div p {
-    line-height: 230px;
     font-family: Catamaran;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 230px;
-    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 100px;
     color: #111;
+    text-align: center;
     text-transform: uppercase;
 }
+
+.rb-rectangle-button{
+    background-image: url(../image/run-buddy.PNG);
+}
+
+.h-rectangle-button {
+    background-image: url(../image/horiseon.PNG);
+}
+
+.h-rectangle-button p, .rb-rectangle-button p {
+    display: none;
+}
+
 /* PORTFOLIO STYLE ENDS */
 
 
@@ -504,11 +517,25 @@ footer ul li a {
 
     /* ---------- PORTFOLIO DESKTOP PAGE ------------- */
 
+    .portfolio-links .wrapper div {
+        float: left;
+        width: 230px;
+        height: 230px;
+        margin: 20px 10px 0px;
+    
+    }
+    
     .portfolio-links .wrapper div:hover {
         background-color: rgba(175, 175, 175, 0.3);
         box-sizing: border-box;
         border: 1.5px solid rgba(137, 137, 137, 0.9);
         background-size: cover;
+    }
+
+    .portfolio-links .wrapper div p {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 230px;
     }
     
     .p-square-button {
@@ -517,15 +544,29 @@ footer ul li a {
 
     .rb-rectangle-button, .h-rectangle-button {
         width: calc(50% - 20px) !important;
+        
     }
 
-    .rb-rectangle-button:hover{
+    .rb-rectangle-button p, .h-rectangle-button p {
+        display: block;
+    }
+
+    .rb-rectangle-button {
+        background-image: none;
+    }
+
+    .h-rectangle-button {
+        background-image: none;
+    }
+
+    .portfolio-links .wrapper .rb-rectangle-button:hover {
         background-image: url(../image/run-buddy.PNG);
     }
 
-    .h-rectangle-button:hover{
+    .portfolio-links .wrapper .h-rectangle-button:hover {
         background-image: url(../image/horiseon.PNG);
     }
+
 
 
     /* ---------- ABOUT ME DESKTOP PAGE ------------- */
