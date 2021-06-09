@@ -342,7 +342,7 @@ footer ul li a {
     height: 300px;
     padding-bottom: 20px;
     padding-right: 20px;
-    padding-left: 40px; 
+    padding-left: 40px;
 }
 
 .about-me article {
@@ -370,6 +370,55 @@ footer ul li a {
     padding: 20px;
 }
 /* ABOUT ME STYLE ENDS */
+
+/* ---------- DESCRIPTION 1 PAGE ------------- */
+
+.desc h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.desc img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 50%;
+    height: 300px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 40px;
+}
+
+.desc article {
+    display: block;
+    width: 352px;
+    text-align: center;
+}
+
+.desc article h3 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.desc article p {
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #111;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
 
 
 /* ---------- CONTACT PAGE ------------- */
@@ -551,37 +600,6 @@ footer ul li a {
         display: block;
     }
 
-    .wds-rectangle-button {
-        background-image: none;
-    }
-
-    .wd-rectangle-button {
-        background-image: none;
-    }
-
-    .portfolio-links .wrapper .m-square-button:hover {
-        background-image: url(../image/munch.PNG);
-    }
-
-    .portfolio-links .wrapper .wds-rectangle-button:hover {
-        background-image: url(../image/wds.PNG);
-    }
-
-    .portfolio-links .wrapper .h-square-button:hover {
-        background-image: url(../image/horiseon.PNG);
-    }
-
-    .portfolio-links .wrapper .wd-rectangle-button:hover {
-        background-image: url(../image/wd.png);
-    }
-
-    .portfolio-links .wrapper .rb-square-button:hover {
-        background-image: url(../image/run-buddy.PNG);
-    }
-
-    .portfolio-links .wrapper .t-square-button:hover {
-        background-image: url(../image/t.PNG);
-    }
 
 
 
@@ -614,6 +632,24 @@ footer ul li a {
     .contact-box h3 {
         font-size: 28px;
     }
+
+    /* ---------- PROJECT DESCRIPTION 1 DESKTOP PAGE ------------- */
+    .desc h2 {
+        text-align: start;
+    }
+
+    .desc img {
+        height: 440px;
+        width: 440px;
+        float: left;
+    }
+
+    .desc article {
+        float: left;
+        width: 500px;
+    }
+
+
 
 }
 /* DESKTOP STYLE ENDS */
